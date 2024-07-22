@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 74af57d7f86dd419ca8a88fc5050744b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SplashScreen: {fileID: 102900000, guid: 8f6aa92ec9aea4dcdb41274444321edc, type: 3}
+  - MainMenuScene: {fileID: 102900000, guid: 82c89e7cabdde486aa952bbdd41686ce, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{2DECAE65-A1F8-8874-0079-43DF1D5713E3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeScene.cs">
+    <Files>
+      <File FileName="Assets/Scripts/ChangeScene.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Yokai3D" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="90e26c48-78d2-425f-8e61-3aff2055beab" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
