@@ -6,7 +6,7 @@ Usare una chiave SSH serve per rendere più sicuri ed immediati gli interventi s
 Seguire le indicazioni in questo link
 https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
 
-
+---
 
 ### Installare GIT per versionare le modifiche
 Usare solo gitbash ( [windows] click destro -> gitbash / [mac] terminale) e non gitGUI. GitGUI [immagine](https://git-scm.com/book/en/v2/images/gitk.png) è l'app di git con intefaccia grafica user friendly, purtroppo non con tutte le versioni funziona correttamente e crea problemi per cui, per precauzione, non lo useremo.
@@ -18,7 +18,7 @@ git –version
 
 Se git non è installato, [questo è il link per scaricarlo](https://git-scm.com/downloads)
 
-
+---
 
 ### Clonare il progetto YOKAI sul proprio computer
 Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul proprio computer:
@@ -32,7 +32,7 @@ git clone [repo_link]
 
 - Premere invio e attendere il download, se usi SSH Key dovrai inserire la passphrase
 
-
+---
 
 ### Staccare un branch
 Per permetterci di lavorare in parallelo sul progetto e per essere sicur di versionare correttamente tutte le modifiche, prima di iniziare a modificare il progetto devi creare un nuovo branch isolato su cui lavorare:
@@ -44,7 +44,7 @@ git checkout -b [area_intervento]/[descrizione_modifiche]
 
 *es.     assets/add_sprites      code/physic_bugfix      scenes/mainmenu_scene*
 
-
+---
 
 ### Pushare le modifiche
 Dopo aver concluso una fase di modifiche ed essere arrivati ad un risultato stabile, occorre pushare le modifiche online, per non perdere il lavoro fatto.
@@ -84,7 +84,7 @@ git push
 
 - Verificare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI) che il branch sia arrivato correttamente
 
-
+---
 
 ### Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
 Quando si lavora in parallelo sullo stesso progetto, capita spesso che più persone intervengano sullo stesso file, ciò può creare conflitti in fase di push dei branch.
