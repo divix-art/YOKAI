@@ -80,7 +80,7 @@ git commit -m [commento]
 git push
 ```
 
-*La prima volta che si pusha un nuovo branch viene visualizzato un errore sul terminale git, questo errore suggerisce di eseguire il push con alcuni parametri extra (upstream), copiare il comando suggerito ed eseguirlo nel terminale per effettuare correttamente il push*
+*La prima volta che si pusha un nuovo branch viene visualizzato un errore sul terminale git, questo errore suggerisce di eseguire il push con alcuni parametri extra (git push --set-upstream origin [nome-branch]), copiare il comando suggerito ed eseguirlo nel terminale per effettuare correttamente il push*
 
 - Verificare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI) che il branch sia arrivato correttamente
 
@@ -93,6 +93,20 @@ Per evitare di perdere parte delle modifiche introdotte **non pushare mai il bra
 
 Per rendere effettive le modifiche pushate nel proprio branch, è necessario creare una Merge Request:
 
-- dopo aver pushato il proprio branch, andare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI)
+1) dopo aver pushato il proprio branch, andare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI)
 
-- 
+2) se il push è stato effettuato da poco, nella parte alta della schermata esce un box giallo con il nome del branch, la scritta "had recent pushes ..." ed un pulsante verde sulla destra con scritto [Compare & pull request]; premere il pulsante [Compare & pull request]
+
+2a) se il pulsante [Compare & pull request] non fosse visibile, premere sul pulsante che indica il numero di branches del progetto *es. 2 branches*
+
+2b) cercare il proprio branch, premere sui tre pallini sulla destra e selezionare la voce "New pull request"
+
+3) Nella schermata che appare, sulla destra, selezionare la voce Assignees e scegliere "Milosauro" per assegnare il compito di verificare la Pull Request (richiesta di unione delle modifiche)
+
+4) Premere il pulsante verde "Create pull request" in basso a destra
+
+5) Nella schermata che appare, nella zona centrale, verificare se viene visualizzata la scritta **This branch has no conflicts with the base branch** in verde oppure **This branch has conflicts that must be resolved** in grigio
+
+5a) Avvisare su discord Milosauro per analizzare e mergiare le modifiche, specificando se la scritta verificata in precedenza sia quella verde (no conflicts) o quella grigia (has conflicts)
+
+6) Per verificare che la "Pull request" sia stata creata, nella parte alta della repo del progeto su [Github](https://github.com/divix-art/YOKAI) premere il pulsante "Pull requests" e verificare che la propria richiesta sia in elenco
