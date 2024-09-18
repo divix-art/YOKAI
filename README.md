@@ -86,9 +86,13 @@ git push
 
 ---
 
-### Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
+### Richiedere una MERGE REQUEST (unire le modifiche fatte nel branch main)
 Quando si lavora in parallelo sullo stesso progetto, capita spesso che più persone intervengano sullo stesso file, ciò può creare conflitti in fase di push dei branch.
 
-Per evitare di perdere parte delle modifiche introdotte **non pushare mai il branch MAIN**.
+Per evitare di perdere parte delle modifiche introdotte **non pushare mai il branch MAIN**, ossia il branch principale di lavoro.
 
-Per rendere effettive le modifiche pushate nel proprio branch, è necessario creare una Merge Request,
+Per rendere effettive le modifiche pushate nel proprio branch, è necessario creare una Merge Request:
+
+- dopo aver pushato il proprio branch, andare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI)
+
+- 
