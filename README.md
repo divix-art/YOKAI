@@ -38,6 +38,28 @@ git clone [repo_link]
 
 ---
 
+### Lavorare con git nella cartella del progetto
+Per poter eseguire tutti i comandi git presentati di seguito, è necessario spostarsi col terminale git all'interno della cartella del progetto.
+Il modo più veloce per aprire il terminale già nella cartella dove si trova il progetto è scrivere nel terminale la parola **cd**, premere uno spazio e poi trascinare col mouse la cartella del progetto all'interno del terminale. In questo modo nel terminale apparirà il percorso della cartella selezionata, quindi premere invio.
+[video Windows](https://www.youtube.com/watch?v=F5Wctl8DBgI&pp=ygUUY21kIGRyYWcgZm9sZGVyIHBhdGg%3D)
+[video Mac](https://www.youtube.com/watch?v=5juI-F-db-I)
+
+---
+
+### Avviare il progetto in Unity
+
+1) Scaricare ed installare [Unity Hub](https://unity.com/download)
+
+⋅⋅1. Se necessario, registrarsi su Unity Hub e autenticarsi
+
+2) Solo per la prima volta in cui viene aperto Unity Hub, premere il pulsante ADD in alto a destra, navigare fino alla cartella del progetto e selezionarla
+
+⋅⋅2. Solo per la prima volta, potrebbe essere necessario scaricare ed installare Unity versione 2022.3.13f1
+
+3) Da Unity Hub premere una sola volta sul nome del progetto per aprire Unity
+
+---
+
 ### Staccare un branch
 Per permetterci di lavorare in parallelo sul progetto e per essere sicur di versionare correttamente tutte le modifiche, prima di iniziare a modificare il progetto devi creare un nuovo branch isolato su cui lavorare:
 
