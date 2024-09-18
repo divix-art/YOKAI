@@ -1,17 +1,17 @@
-### Yokai3D Unity project
+# Yokai3D Unity project
 
 
-# Add SSH Key
+### Add SSH Key
 Seguire le indicazioni in questo link
 https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
 
 
-# Install GIT
+### Install GIT
 Usare solo gitbash (riga di comand) e non gitGUI
 https://git-scm.com/downloads
 
 
-# Clone YOKAI project
+### Clone YOKAI project
 - Dalla schermata della repo su github, in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link], se hai già installato la SSH Key premi su SSH e copia il link corretto
 
 - In un terminale git scrivere:       
@@ -22,7 +22,7 @@ git clone [repo_link]
 - Premere invio e attendere il download, se usi SSH Key dovrai inserire la passphrase
 
 
-# Staccare un branch
+### Staccare un branch
 Per permetterci di lavorare in parallelo sul progetto e per essere sicur di versionare correttamente tutte le modifiche, prima di iniziare a modificare il progetto devi creare un nuovo branch isolato su cui lavorare:
 
 - In un terminale git scrivere:
@@ -33,7 +33,7 @@ git checkout -b [area_intervento]/[descrizione_modifiche]
 *es.     assets/add_sprites      code/physic_bugfix      scenes/mainmenu_scene*
 
 
-# Pushare le modifiche
+### Pushare le modifiche
 Dopo aver concluso una fase di modifiche ed essere arrivati ad un risultato stabile, occorre pushare le modifiche online, per non perdere il lavoro fatto.
 **Per una più facile gestione delle modifiche, pushare spesso il lavoro fatto**
 
@@ -72,5 +72,5 @@ git push
 - Verificare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI) che il branch sia arrivato correttamente
 
 
-# Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
+### Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
 
