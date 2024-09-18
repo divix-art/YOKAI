@@ -1,13 +1,6 @@
 # Yokai3D Unity project
 
 
-### Aggiungere una chiave SSH Key [facoltativo]
-Usare una chiave SSH serve per rendere più sicuri ed immediati gli interventi sul progetto.
-Seguire le indicazioni in questo link
-https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
-
----
-
 ### Installare GIT per versionare le modifiche
 Usare solo gitbash ( [windows] click destro -> gitbash / [mac] terminale) e non gitGUI. GitGUI [immagine](https://git-scm.com/book/en/v2/images/gitk.png) è l'app di git con intefaccia grafica user friendly, purtroppo non con tutte le versioni funziona correttamente e crea problemi per cui, per precauzione, non lo useremo.
 
@@ -62,7 +55,6 @@ Se, per effettuare spostamenti o altri interventi, dovesse servire recuperare la
 ```
 git branch
 ```
-
 ---
 
 ### Recuperare le modifiche dal main branch online (pullare)
@@ -116,6 +108,8 @@ git push
 
 *La prima volta che si pusha un nuovo branch viene visualizzato un errore sul terminale git, questo errore suggerisce di eseguire il push con alcuni parametri extra (git push --set-upstream origin [nome-branch]), copiare il comando suggerito ed eseguirlo nel terminale per effettuare correttamente il push*
 
+**Se stai usando una SSH Key, ad ogni push ti verrà richiesto di inserire la passphrase**
+
 - Verificare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI) che il branch sia arrivato correttamente
 
 ---
@@ -144,3 +138,14 @@ Per rendere effettive le modifiche pushate nel proprio branch, è necessario cre
 ⋅⋅1. Avvisare su discord Milosauro per analizzare e mergiare le modifiche, specificando se la scritta verificata in precedenza sia quella verde (no conflicts) o quella grigia (has conflicts)
 
 6) Per verificare che la "Pull request" sia stata creata, nella parte alta della repo del progeto su [Github](https://github.com/divix-art/YOKAI) premere il pulsante "Pull requests" e verificare che la propria richiesta sia in elenco
+
+---
+
+### Aggiungere una chiave SSH Key [facoltativo]
+Usare una chiave SSH serve per rendere più sicuri ed immediati gli interventi sul progetto.
+Seguire le indicazioni in questo link
+https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
+
+**N.B. Ricordarsi bene la passphrase, è una sorta di password che verrà richiesta per eseguire le operazioni più importanti**
+
+---
