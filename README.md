@@ -54,7 +54,7 @@ Il modo più veloce per aprire il terminale già nella cartella dove si trova il
 
 2) Solo per la prima volta in cui viene aperto Unity Hub, premere il pulsante ADD in alto a destra, navigare fino alla cartella del progetto e selezionarla
 
-⋅⋅2. Solo per la prima volta, potrebbe essere necessario scaricare ed installare Unity versione 2022.3.13f1
+⋅⋅2. Solo per la prima volta, potrebbe essere necessario scaricare ed installare [Unity](https://unity.com/releases/editor/archive) versione 2022.3.13f1
 
 3) Da Unity Hub premere una sola volta sul nome del progetto per aprire Unity
 
