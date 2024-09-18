@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 28651681ab85a4048b046124562a0b5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - teamLogScreen: {fileID: 102900000, guid: dc3126ac1870241169bbcba74f0908b2, type: 3}
+  - splashScreen: {fileID: 102900000, guid: 8f6aa92ec9aea4dcdb41274444321edc, type: 3}
+  - mainMenuScene: {fileID: 102900000, guid: 82c89e7cabdde486aa952bbdd41686ce, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

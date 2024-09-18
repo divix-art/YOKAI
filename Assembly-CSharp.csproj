@@ -60,7 +60,16 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Models/PlayerInventory.cs" />
+    <Compile Include="Assets/Managers/GameManager.cs" />
+    <Compile Include="Assets/Managers/SceneManager.cs" />
+    <Compile Include="Assets/Scripts/Singleton.cs" />
     <Compile Include="Assets/Scripts/ChangeScene.cs" />
+    <Compile Include="Assets/Controllers/SplashScreenController.cs" />
+    <Compile Include="Assets/Controllers/InventoryController.cs" />
+    <Compile Include="Assets/Managers/SceneNames.cs" />
+    <Compile Include="Assets/Controllers/LogoScreenController.cs" />
+    <Compile Include="Assets/Views/InventoryView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -350,7 +350,16 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.13f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Controllers/InventoryController.cs"
+"Assets/Controllers/LogoScreenController.cs"
+"Assets/Controllers/SplashScreenController.cs"
+"Assets/Managers/GameManager.cs"
+"Assets/Managers/SceneManager.cs"
+"Assets/Managers/SceneNames.cs"
+"Assets/Models/PlayerInventory.cs"
 "Assets/Scripts/ChangeScene.cs"
+"Assets/Scripts/Singleton.cs"
+"Assets/Views/InventoryView.cs"
 -langversion:9.0
 
 /deterministic

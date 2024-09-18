@@ -215,6 +215,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &642988292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642988294}
+  - component: {fileID: 642988299}
+  - component: {fileID: 642988298}
+  - component: {fileID: 642988297}
+  m_Layer: 0
+  m_Name: GameManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642988294
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642988292}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 348.2828, y: 198.86539, z: -4.992448}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &642988297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642988292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28651681ab85a4048b046124562a0b5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teamLogScreen: {fileID: 102900000, guid: dc3126ac1870241169bbcba74f0908b2, type: 3}
+  splashScreen: {fileID: 102900000, guid: 8f6aa92ec9aea4dcdb41274444321edc, type: 3}
+  mainMenuScene: {fileID: 102900000, guid: 82c89e7cabdde486aa952bbdd41686ce, type: 3}
+--- !u!114 &642988298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642988292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253da98a78aa94c629c3756879da4951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneNames: {fileID: 642988297}
+--- !u!114 &642988299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642988292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc9577281dd644978dd1a5b7af682c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 0
+  playerName: 
+  sceneManager: {fileID: 642988298}
 --- !u!1 &831219423
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,10 +481,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 979965454}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74af57d7f86dd419ca8a88fc5050744b, type: 3}
+  m_Script: {fileID: 11500000, guid: d4a16fadea36a446c914ab9af344c4dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SplashScreen: {fileID: 102900000, guid: 8f6aa92ec9aea4dcdb41274444321edc, type: 3}
 --- !u!1 &1086951951
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,9 +566,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 979965459}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ToSplashScreen
+      - m_Target: {fileID: 11500000, guid: 253da98a78aa94c629c3756879da4951, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -785,3 +861,4 @@ SceneRoots:
   - {fileID: 1788271370}
   - {fileID: 979965458}
   - {fileID: 1202415508}
+  - {fileID: 642988294}
