@@ -26,6 +26,7 @@ Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul pr
 ```
 cd [percorso_cartella]
 ```
+**ATTENZIONE! Il progetto è già inserito in una cartella chiamata YOKAI**
 
 - Per clonare il progetto, nel terminale git scrivere:       
 ```
