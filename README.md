@@ -46,7 +46,41 @@ git checkout -b [area_intervento]/[descrizione_modifiche]
 
 ---
 
-### Pushare le modifiche
+### Spostarsi tra i branch
+Durante le modifiche può capitare di doversi spostare tra i vari branch, ad esempio dal main ad un branch di lavoro e viceversa. Per spostarsi da un branch ad un altro aprire un terminale git e scrivere:
+```
+git checkout -b [nome_branch]
+```
+Per velocizzare la compilazione del nome basta scrivere le prime lettere e poi premere tab, se non ci sono nomi che hanno un inizio identico il nome del branch verrà compilato automaticamente.
+
+**Nel caso ci fossero alcune modifiche effettuate sul branch di partenza, quando si effettua il checkout verso il main branch potrebbero verificarsi degli errori che non permettono il cambio di branch. In questo caso bisogna prima pushare o cancellare le modifiche effettuate**
+
+---
+
+### Vedere la lista di branch sul proprio computer
+Se, per effettuare spostamenti o altri interventi, dovesse servire recuperare la lista di tutti i branch creati sul proprio computer, aprire un terminale git e scrivere:
+```
+git branch
+```
+
+---
+
+### Recuperare le modifiche dal main branch online (pullare)
+Per essere sempre sicuri di lavorare su una versione aggiornata del progetto è bene tenere aggiornato il branch main sul proprio pc.
+In genere il pull del main branch va effettuato dopo aver pushato (e mergiato) le modifiche, in modo da scaricare nel proprio main sia i propri interventi che le eventuali modifiche degli altri.
+
+Per effettuare il pull del main branch, aprire un terminale git e scrivere:
+
+```
+git checkout main
+git pull
+```
+
+**Nel caso ci fossero alcune modifiche effettuate sul branch di partenza, quando si effettua il checkout verso il main branch potrebbero verificarsi degli errori che non permettono il cambio di branch. In questo caso bisogna prima pushare o cancellare le modifiche effettuate**
+
+---
+
+### Caricare le proprie modifiche online (pushare)
 Dopo aver concluso una fase di modifiche ed essere arrivati ad un risultato stabile, occorre pushare le modifiche online, per non perdere il lavoro fatto.
 **Per una più facile gestione delle modifiche, pushare spesso il lavoro fatto**
 
