@@ -11,6 +11,8 @@ git version
 
 Se viene visualizzata la versione di Git, allora è già installato. Viceversa, se git non è installato, [questo è il link per scaricarlo](https://git-scm.com/downloads)
 
+**ATTENZIONE! La versione gitbash di windows non permette di copiare e incollare da tastiera (ctrl+c e ctrl+v), bisogna fare click destro ed eseguire le due operazioni con il mouse**
+
 ---
 
 ### Clonare il progetto YOKAI sul proprio computer
@@ -29,6 +31,7 @@ cd [percorso_cartella]
 ```
 git clone [repo_link]
 ```
+*es. git clone https://github.com/divix-art/YOKAI.git*
 
 - Premere invio e attendere il download, se usi SSH Key dovrai inserire la passphrase
 
