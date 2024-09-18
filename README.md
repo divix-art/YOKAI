@@ -9,7 +9,7 @@ https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-g
 
 
 ### Installare GIT per versionare le modifiche
-Usare solo gitbash (riga di comand) e non gitGUI. Per verificare se git è già installato, aprire un terminale e scrivere:
+Usare solo gitbash ( [windows ]click destro -> gitbash / [mac] terminale) e non gitGUI. Per verificare se git è già installato, aprire un terminale e scrivere:
 ```
 git –version
 ```
