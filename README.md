@@ -9,7 +9,7 @@ https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-g
 
 
 ### Installare GIT per versionare le modifiche
-Usare solo gitbash ( [windows ]click destro -> gitbash / [mac] terminale) e non gitGUI. Per verificare se git è già installato, aprire un terminale e scrivere:
+Usare solo gitbash ( [windows] click destro -> gitbash / [mac] terminale) e non gitGUI (il prompt con interfaccia grafica, usare solo il termianle!!!!). Per verificare se git è già installato, aprire un terminale e scrivere:
 ```
 git –version
 ```
@@ -21,7 +21,7 @@ Se git non è installato, [questo è il link per scaricarlo](https://git-scm.com
 ### Clonare il progetto YOKAI sul proprio computer
 Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul proprio computer:
 
-- Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link], se hai già installato la SSH Key premi su SSH e copia il link corretto
+- Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link]; se hai già installato la SSH Key premi su SSH e copia il link corretto.
 
 - In un terminale git scrivere:       
 ```
