@@ -97,9 +97,9 @@ Per rendere effettive le modifiche pushate nel proprio branch, è necessario cre
 
 2) se il push è stato effettuato da poco, nella parte alta della schermata esce un box giallo con il nome del branch, la scritta "had recent pushes ..." ed un pulsante verde sulla destra con scritto [Compare & pull request]; premere il pulsante [Compare & pull request]
 
-2a) se il pulsante [Compare & pull request] non fosse visibile, premere sul pulsante che indica il numero di branches del progetto *es. 2 branches*
+⋅⋅1. se il pulsante [Compare & pull request] non fosse visibile, premere sul pulsante che indica il numero di branches del progetto *es. 2 branches*
 
-2b) cercare il proprio branch, premere sui tre pallini sulla destra e selezionare la voce "New pull request"
+⋅⋅2. cercare il proprio branch, premere sui tre pallini sulla destra e selezionare la voce "New pull request"
 
 3) Nella schermata che appare, sulla destra, selezionare la voce Assignees e scegliere "Milosauro" per assegnare il compito di verificare la Pull Request (richiesta di unione delle modifiche)
 
@@ -107,6 +107,6 @@ Per rendere effettive le modifiche pushate nel proprio branch, è necessario cre
 
 5) Nella schermata che appare, nella zona centrale, verificare se viene visualizzata la scritta **This branch has no conflicts with the base branch** in verde oppure **This branch has conflicts that must be resolved** in grigio
 
-5a) Avvisare su discord Milosauro per analizzare e mergiare le modifiche, specificando se la scritta verificata in precedenza sia quella verde (no conflicts) o quella grigia (has conflicts)
+⋅⋅1. Avvisare su discord Milosauro per analizzare e mergiare le modifiche, specificando se la scritta verificata in precedenza sia quella verde (no conflicts) o quella grigia (has conflicts)
 
 6) Per verificare che la "Pull request" sia stata creata, nella parte alta della repo del progeto su [Github](https://github.com/divix-art/YOKAI) premere il pulsante "Pull requests" e verificare che la propria richiesta sia in elenco
