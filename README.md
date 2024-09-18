@@ -18,7 +18,14 @@ Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul pr
 
 - Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link]; se hai già installato la SSH Key premi su SSH e copia il link premendo il pulsante SSH, altrimenti usa il link HTTPS
 
-- In un terminale git scrivere:       
+- Aprire un terminale git ( [windows] click destro -> gitbash / [mac] terminale) e spostarsi in una cartella del proprio computer in cui si vuole salvare il progetto. Il modo più veloce per aprire il terminale già nella cartella dove si vuole scaricare il progetto è scrivere nel terminale la parola **cd**, premere uno spazio e poi trascinare col mouse la cartella di destinazione all'interno del terminale. In questo modo nel terminale apparirà il percorso della cartella selezionata, quindi premere invio.
+[video Windows](https://www.youtube.com/watch?v=F5Wctl8DBgI&pp=ygUUY21kIGRyYWcgZm9sZGVyIHBhdGg%3D)
+[video Mac](https://www.youtube.com/watch?v=5juI-F-db-I)
+```
+cd [percorso_cartella]
+```
+
+- Per clonare il progetto, nel terminale git scrivere:       
 ```
 git clone [repo_link]
 ```
