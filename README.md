@@ -1,18 +1,27 @@
 # Yokai3D Unity project
 
 
-### Add SSH Key
+### Aggiungere una chiave SSH Key [facoltativo]
+Usare una chiave SSH serve per rendere più sicuri ed immediati gli interventi sul progetto.
 Seguire le indicazioni in questo link
 https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account/
 
 
-### Install GIT
-Usare solo gitbash (riga di comand) e non gitGUI
-https://git-scm.com/downloads
+
+### Installare GIT per versionare le modifiche
+Usare solo gitbash (riga di comand) e non gitGUI. Per verificare se git è già installato, aprire un terminale e scrivere:
+```
+git –version
+```
+
+Se git non è installato, [questo è il link per scaricarlo](https://git-scm.com/downloads)
 
 
-### Clone YOKAI project
-- Dalla schermata della repo su github, in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link], se hai già installato la SSH Key premi su SSH e copia il link corretto
+
+### Clonare il progetto YOKAI sul proprio computer
+Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul proprio computer:
+
+- Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link], se hai già installato la SSH Key premi su SSH e copia il link corretto
 
 - In un terminale git scrivere:       
 ```
@@ -20,6 +29,7 @@ git clone [repo_link]
 ```
 
 - Premere invio e attendere il download, se usi SSH Key dovrai inserire la passphrase
+
 
 
 ### Staccare un branch
@@ -31,6 +41,7 @@ git checkout -b [area_intervento]/[descrizione_modifiche]
 ```
 
 *es.     assets/add_sprites      code/physic_bugfix      scenes/mainmenu_scene*
+
 
 
 ### Pushare le modifiche
@@ -72,5 +83,10 @@ git push
 - Verificare sulla repo del progeto su [Github](https://github.com/divix-art/YOKAI) che il branch sia arrivato correttamente
 
 
-### Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
 
+### Richiedere una MERGE REQUEST (unire le modifiche fatte nel mail)
+Quando si lavora in parallelo sullo stesso progetto, capita spesso che più persone intervengano sullo stesso file, ciò può creare conflitti in fase di push dei branch.
+
+Per evitare di perdere parte delle modifiche introdotte **non pushare mai il branch MAIN**.
+
+Per rendere effettive le modifiche pushate nel proprio branch, è necessario creare una Merge Request,
