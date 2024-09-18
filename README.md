@@ -6,17 +6,17 @@ Usare solo gitbash ( [windows] click destro -> gitbash / [mac] terminale) e non 
 
 Per verificare se git è già installato, aprire un terminale e scrivere:
 ```
-git –version
+git version
 ```
 
-Se git non è installato, [questo è il link per scaricarlo](https://git-scm.com/downloads)
+Se viene visualizzata la versione di Git, allora è già installato. Viceversa, se git non è installato, [questo è il link per scaricarlo](https://git-scm.com/downloads)
 
 ---
 
 ### Clonare il progetto YOKAI sul proprio computer
 Per poter lavorare al progetto occorre "clonare" la cartella del progetto sul proprio computer:
 
-- Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link]; se hai già installato la SSH Key premi su SSH e copia il link corretto.
+- Dalla schermata della repo su [Github](https://github.com/divix-art/YOKAI), in alto a destra, premere il pulsante verde [<> Code] e copiare il [repo_link]; se hai già installato la SSH Key premi su SSH e copia il link premendo il pulsante SSH, altrimenti usa il link HTTPS
 
 - In un terminale git scrivere:       
 ```
