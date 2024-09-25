@@ -875,6 +875,7 @@ GameObject:
   - component: {fileID: 1055436491}
   - component: {fileID: 1055436490}
   - component: {fileID: 1055436489}
+  - component: {fileID: 1055436493}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -971,6 +972,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1055436493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055436488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723143c49fc39424eb0365bf150423db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnNewGame: {fileID: 55174169}
+  btnLoadGame: {fileID: 1015000923}
+  btnOptions: {fileID: 1085959433}
+  btnExit: {fileID: 1956157795}
 --- !u!1 &1085959431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1434,6 +1451,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc9577281dd644978dd1a5b7af682c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerScore: 0
+  playerName: 
+  sceneManager: {fileID: 0}
 --- !u!114 &1755103334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1446,7 +1466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 253da98a78aa94c629c3756879da4951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: {fileID: 0}
+  sceneNames: {fileID: 0}
 --- !u!1 &1956157793
 GameObject:
   m_ObjectHideFlags: 0
