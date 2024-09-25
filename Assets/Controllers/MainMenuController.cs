@@ -17,7 +17,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField]
     Button btnExit;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update 2
     void Start()
     {
         // Assegna i listener agli eventi OnClick dei bottoni

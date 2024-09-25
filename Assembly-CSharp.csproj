@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2DECAE65-A1F8-8874-0079-43DF1D5713E3}</ProjectGuid>
+    <ProjectGuid>{F38329C9-E0E2-B521-41FE-043F45D70941}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Models/PlayerInventory.cs" />
+    <Compile Include="Assets/Scripts/SmoothCameraFollow.cs" />
+    <Compile Include="Assets/Scripts/ObjectMovement.cs" />
+    <Compile Include="Assets/Controllers/MainMenuController.cs" />
     <Compile Include="Assets/Managers/GameManager.cs" />
     <Compile Include="Assets/Managers/SceneManager.cs" />
     <Compile Include="Assets/Scripts/Singleton.cs" />
